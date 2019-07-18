@@ -1,3 +1,3 @@
-welcomeMessage = 'Hello light, my old friend'
+welcomeMessage = 'Hello light, my new friend'
 print welcomeMessage
 
