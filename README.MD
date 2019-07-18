@@ -1,7 +1,11 @@
 
 # What is it all about ? 
 
+<<<<<<< HEAD
 > A tool for professional developer / hobbyists / anyone who operates  a static site that lets the owner know if how many people have checked in or visited their  static sites, this works in github pages, netlify for the meantime.
+=======
+> A tool for static site owners / developers or hobbyists that lets the owner know if how many people have checked in or visited their  static sites, this works in github pages, netlify for the meantime.
+>>>>>>> d46b52889e0768a4226fbfde878bb832d3c89c01
 
 > This works for any static sites hosted on github pages and netlify
 
