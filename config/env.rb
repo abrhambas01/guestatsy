@@ -1,7 +1,12 @@
 require 'net/http'
 class Environment
-	attr_reader
-# receives your github pages / netlify account.
+	attr_reader 
+		def ini
 
+
+		# receives your github pages / netlify account.
+		def fetch_data()
+			
+		end
 
 end
