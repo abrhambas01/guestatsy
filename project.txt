@@ -1,8 +1,10 @@
 I need this tools : 
 
 1. thor for the cli inputs.
+
 2. REST api for github and netlify data.
 		- we need to link netlify with google analytics
+		
 3. service that we can host our podcast in..
 		- use mega to store our files..
-		- dropbox
+		- or dropbox optionally.

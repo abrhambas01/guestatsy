@@ -1,10 +1,13 @@
 **_Docs : v.1_**
 # What is it all about ? 
 
+> A google analytics backed tool for anyone who owns a static site
+
 > A tool for professional developer / hobbyists / anyone who operates  a static site that lets these owners know if how many people have checked in or visited their  static sites, this works in github pages and netlify for the meantime.
 
 > This works for any static sites hosted on github pages and netlify
 
+> My Personally used software.
 
 # When / How can you use this ?
 
