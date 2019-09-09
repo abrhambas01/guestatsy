@@ -1,10 +1,9 @@
 require 'thor'
-
 class Main < Thor
 	# <name_of_the_class>,  <description>
 
 	include Thor::Actions
-
+	
 	desc "The Main Method", "a test task"
 
 	method_option :delete, :aliases => "Delete the file after parsing it."

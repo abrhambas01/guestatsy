@@ -1,50 +1,61 @@
 # I need a task for :
 # generating daily stats
-# generating if we get a return from a github rest endpoint
-# r
+# generating if we get a return from a github / netlify rest endpoint
+require 'google/apis/analytics_v3'
 require_relative 'boot'
+desc "Starting stats..."
 
-desc "Starting tasks..."
+namespace :stats do
 
-namespace :stats do 
-	task :generate_daily do 
 =begin
-returns stats like daily visitors (count of daily visitors)	
+returns stats like the count of daily visitors (count of daily visitors)	
 =end
-	print "Generating today's daily assets.."
+# task :generate_daily do 
+# 	# fetch api for github and netlify
+# 	# research on how to get analytics data from netlify and github
+# 	print "Generating today's count of daily visitors."
+# end
 
-	end
-
-	task :generate_monthly do 
-		print "Generating stats assets.."
-	end
-
-	task :test_github_api do 
-		if ENV
-			
-		end
-		
-
-		print "Generating github assets.."
-	end
-
-	task :test_netlify_api do 
-		print "Generating netlify assets.."
-	end
-
-	task :test_if_g_analytics do 
-		print "Generating netlify assets.."
-	end
+task :netlify do
+	print "Generating netlify assets.."; 
 end
+
+task :generate_monthly_count do 
+	print "Generating stats assets.."
+end
+
+task :github do 
+	print "Generating github assets.."
+end
+
+task :netlify_test_api do 
+	print "Netlify test api"
+end
+
+		# We'll need this to check if someone will visit our website
+		task :google_analytics_test_api do 
+		# print "Generating google analytics assets.."
+			Analytics = Google::Apis::AnalyticsV3 #alias.
+			analytics  = Analytics::AnalyticsService.new
+			# print analytics
+			analytics.authorization()
+			# analytics.initialize()
+		end
+	end
 
 =begin
 namespace :todos do 
+	task :organize do 
+		puts "..."
+	end
+end
+=end
 
-	# $ rake todos:organize
+=begin
+namespace :todos do 
 	task :organize do
 		puts "Organizing.."
 	end
-
 	task :wrap_up do
 		puts "Wrapping up.."
 	end
