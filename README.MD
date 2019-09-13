@@ -1,9 +1,13 @@
 **_Docs : v.1_**
+
+> _Update : Guestatsy has been renamed to statscythe (static site + scythe)_
+
 # What is it all about ? 
+
 
 > A google analytics backed CLI tool for anyone who owns a personal website / static site hosted in github pages / netlify. 
 
-> A tool for professional developer / hobbyists / anyone who operates  a static site that lets these owners / people know if how many people have checked in or visited their  static sites, this works in github pages and netlify for the meantime.
+> A tool for professional developer / hobbyists / anyone who operates  a static site that lets the hosts / the owners of these static sites to know if how many people have checked in or visited their  static sites, this works in github pages and netlify for the meantime.
 
 > This works for any static sites hosted on github pages and netlify
 > My Personally used software.
@@ -17,6 +21,14 @@
 		- netlify sites only for the meantime.
  
  Wait for it, pal..
+=======
+1. Simply install this in your computer as a CLI tool.  Just let it sit there
+
+*  Enter your website / static site address..
+- 1. github pages for the meantime, I'll be adding the netlify, anyone who knows a static site hoster kindly make a pull request.
+
+
+> Wait for it, pal..
 
 * Everytime someone visits your site, it will notify your computer via your terminal / command prompt 
 
@@ -24,7 +36,7 @@
 
 Steps to follow after cloning the project to start using it solely 
   - Open the env.yml file in the config directory
-  - Supply the 
+  - Supply the necessary credentials there on where you host your static sites.
 
 # To learn more about static sites take a look at this ff: 
 1. Jekyll 
@@ -32,7 +44,6 @@ Steps to follow after cloning the project to start using it solely
 3. Sculpin
 4. Jigsaw
 5. Gatsby
-6. Next.js
 
 **_For v.2_**
 

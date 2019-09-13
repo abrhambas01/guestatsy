@@ -33,15 +33,15 @@ task :netlify_test_api do
 end
 
 		# We'll need this to check if someone will visit our website
-		task :google_analytics_test_api do 
-		# print "Generating google analytics assets.."
-			Analytics = Google::Apis::AnalyticsV3 #alias.
-			analytics  = Analytics::AnalyticsService.new
-			# print analytics
-			analytics.authorization()
-			# analytics.initialize()
-		end
-	end
+task :google_analytics_test_api do 
+# print "Generating google analytics assets.."
+	Analytics = Google::Apis::AnalyticsV3 #alias.
+	analytics  = Analytics::AnalyticsService.new
+	# print analytics
+	analytics.authorization()
+	# analytics.initialize()
+end
+end
 
 =begin
 namespace :todos do 
