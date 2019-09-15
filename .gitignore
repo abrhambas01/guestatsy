@@ -2,3 +2,4 @@ foobar.thor
 test.thor
 project.md
 /doc
+/config/env.yml

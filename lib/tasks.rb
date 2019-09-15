@@ -4,7 +4,6 @@
 require 'google/apis/analytics_v3'
 require_relative 'boot'
 desc "Starting stats..."
-
 namespace :stats do
 
 =begin
@@ -31,8 +30,7 @@ end
 task :netlify_test_api do 
 	print "Netlify test api"
 end
-
-		# We'll need this to check if someone will visit our website
+# We'll need this to check if someone will visit our website
 task :google_analytics_test_api do 
 # print "Generating google analytics assets.."
 	Analytics = Google::Apis::AnalyticsV3 #alias.
@@ -41,6 +39,7 @@ task :google_analytics_test_api do
 	analytics.authorization()
 	# analytics.initialize()
 end
+
 end
 
 =begin

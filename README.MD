@@ -1,6 +1,6 @@
 **_Docs : v.1_**
 
-> _Update : Guestatsy has been renamed to statscythe (static site + scythe)_
+> _Update : Guestatsy has been renamed to statscythe (static site's stats and scythe tool)_
 
 # What is it all about ? 
 
@@ -53,16 +53,13 @@ Steps to follow after cloning the project to start using it solely
 > I moved the podstat project in here so that it will be an all in one static site tool. So after you opened the CLI app , you can just type in there
 
 ```
-
 $ pod start
-
 ```
 
 **then make sure to just point to the location of the .mp3 / m4a files**
 
 
 ### Using the application as a software  : 
-
 
 # Collaboration : 
 
