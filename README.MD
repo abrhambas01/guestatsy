@@ -4,10 +4,9 @@
 
 # What is it all about ? 
 
+> A google analytics backed CLI tool for anyone who owns a personal website / static site hosted in github pages / netlify / wordpress. Just specify it.
 
-> A google analytics backed CLI tool for anyone who owns a personal website / static site hosted in github pages / netlify. 
-
-> A tool for professional developer / hobbyists / anyone who operates  a static site that lets the hosts / the owners of these static sites to know if how many people have checked in or visited their  static sites, this works in github pages and netlify for the meantime.
+> A tool for professional developer / hobbyists / anyone who operates  a static site that contains their blogs that lets the hosts / the owners of these static sites to know if how many people have checked in or visited their  static sites powered by Google analytics.
 
 > This works for any static sites hosted on github pages and netlify
 > My Personally used software.
@@ -19,11 +18,12 @@
 	*  Enter your website / static site address for example : aib.netlify.com or aib.github.io or website that's hosted by github.
 		- github pages and 
 		- netlify sites only for the meantime.
- 
- Wait for it, pal..
-=======
-1. Simply install this in your computer as a CLI tool.  Just let it sit there
 
+ Wait for it, pal..
+
+> Make sure you have your unique tracking code setup in the html of your site. for setting up go to the setting up part of this readme
+
+1. Simply install this in your computer as a CLI tool.  Just let it sit there
 *  Enter your website / static site address..
 - 1. github pages for the meantime, I'll be adding the netlify, anyone who knows a static site hoster kindly make a pull request.
 
@@ -52,16 +52,29 @@ Steps to follow after cloning the project to start using it solely
 **Take Note:** 
 > I moved the podstat project in here so that it will be an all in one static site tool. So after you opened the CLI app , you can just type in there
 
+
 ```
 $ pod start
 ```
 
+
 **then make sure to just point to the location of the .mp3 / m4a files**
 
 
-### Using the application as a software  : 
 
-# Collaboration : 
+# Setting up your the whole ecosystem of the software
+1. setup Google Tag Manager.
+2. Create a Google Analytics account.
+3. Set up analytics tag with Google Tag Manager
+4. Goal setting.. 
+5. Link to Google Search Console
+		 
+or you can follow this whole tutorial : 
 
+https://www.mainstreetroi.com/google-analytics-101-5-steps-to-set-up-your-account/
+
+
+
+
+# >  Collaboration : 
 To collaborate, you know what to do : make a PR :) :)
-

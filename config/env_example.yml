@@ -1,0 +1,11 @@
+# this is how you will specify your project's basic needed data in your project. You can use this as your reference for
+# your project
+Comment: >
+  api_keys : 
+    tracking_code : 
+    google_analytics_id : 
+    netlify_key :  
+    github_pages_key : 
+
+  # any account keys for storing the podcast would want to use.
+  mega_account_key : 
