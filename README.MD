@@ -1,3 +1,4 @@
+```
 **_Docs : v.1_**
 
 > _Update : Guestatsy has been renamed to statscythe (static site's stats and scythe tool)_
@@ -78,3 +79,4 @@ https://www.mainstreetroi.com/google-analytics-101-5-steps-to-set-up-your-accoun
 
 # >  Collaboration : 
 To collaborate, you know what to do : make a PR :) :)
+```
